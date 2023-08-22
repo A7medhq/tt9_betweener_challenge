@@ -2,16 +2,16 @@ import 'package:email_validator/email_validator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:tt9_betweener_challenge/assets.dart';
+import 'package:tt9_betweener_challenge/core/util/assets.dart';
 import 'package:tt9_betweener_challenge/models/user.dart';
-import 'package:tt9_betweener_challenge/views/main_app_view.dart';
-import 'package:tt9_betweener_challenge/views/register_view.dart';
-import 'package:tt9_betweener_challenge/views/widgets/custom_text_form_field.dart';
-import 'package:tt9_betweener_challenge/views/widgets/primary_outlined_button_widget.dart';
-import 'package:tt9_betweener_challenge/views/widgets/secondary_button_widget.dart';
+import 'package:tt9_betweener_challenge/views_features/auth/register_view.dart';
 
-import '../controllers/auth_controller.dart';
-import 'widgets/google_button_widget.dart';
+import '../../controllers/auth_controller.dart';
+import '../home/main_app_view.dart';
+import '../widgets/custom_text_form_field.dart';
+import '../widgets/google_button_widget.dart';
+import '../widgets/primary_outlined_button_widget.dart';
+import '../widgets/secondary_button_widget.dart';
 
 class LoginView extends StatefulWidget {
   static String id = '/loginView';

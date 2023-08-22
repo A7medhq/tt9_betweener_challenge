@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tt9_betweener_challenge/constants.dart';
+import 'package:tt9_betweener_challenge/core/util/constants.dart';
 
 class CustomFloatingNavBar extends StatelessWidget {
   final int currentIndex;

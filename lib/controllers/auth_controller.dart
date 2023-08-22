@@ -1,5 +1,5 @@
 import 'package:http/http.dart' as http;
-import 'package:tt9_betweener_challenge/constants.dart';
+import 'package:tt9_betweener_challenge/core/util/constants.dart';
 import 'package:tt9_betweener_challenge/models/user.dart';
 
 Future<User> login(Map<String, String> body) async {
