@@ -1,6 +1,6 @@
 import 'package:http/http.dart' as http;
-import 'package:tt9_betweener_challenge/constants.dart';
 import 'package:tt9_betweener_challenge/models/user.dart';
+import '../core/util/constants.dart';
 
 Future<User> login(Map<String, String> body) async {
   final response = await http.post(
